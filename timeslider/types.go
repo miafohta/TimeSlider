@@ -1,7 +1,7 @@
 package timeslider
 
 import (
-	"mercury/core/log" // "dtibase/log"
+	"mercury/core/log" // 
 	//"os"
 )
 
