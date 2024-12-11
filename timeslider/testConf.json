@@ -1,0 +1,28 @@
+{
+	"Dir": {
+		"Src": "tmp/input/%site/",
+		"FinalDst": "tmp/output/%site/",
+		"TmpDir": "tmp/tmpfolder/",
+		"News": "tmp/news/%site/"
+		},
+	"Mp4": ["360p.mp4","240p.mp4"],
+	"Filename": "thumbnail.vtt",
+	"ImgFilename": "output001.jpg",
+	"MdConf": "mdConf.json",
+	"V": {
+		"NumberOfTiles": 25,
+	        "W": "162",
+		"H": "90",
+		"X": ["0", "162", "324", "486", "648"],
+		"Y": ["0", "90", "180", "270", "360"]
+	},
+	"SC":[
+	     {  "SiteName" : "", "SitePath" : "", "MovieIds" : ["",""]},
+             {  "SiteName" : "", "SitePath" : ""}
+	],
+	"Retry": 2,		
+	"Logs":{
+		"Timeslider": "all"
+        }
+}
+

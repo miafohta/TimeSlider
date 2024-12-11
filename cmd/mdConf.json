@@ -1,0 +1,47 @@
+{
+        "Commands": [
+                {
+                        "Key": "md5sum",
+                        "Command": "/usr/bin/md5sum",
+                        "Options": ["%file"]
+                },
+                {
+                        "Key": "avprobe",
+                        "Command": "/usr/local/bin/avprobe",
+                        "Options": ["%file", "-show_streams", "-show_format", "-of", "json"]
+                },
+                {
+                        "Key": "rsync",
+                        "Command": "/usr/bin/rsync",
+                        "Options": ["-avz", "%src", "%dest"]
+                },
+                {
+                        "Key": "cp",
+                        "Command": "/bin/cp",
+                        "Options": ["%src", "%dest"]
+                }
+        ],
+	 "DB": [
+                {
+                        "Type": "mysql",
+                        "Host": "xxxxxxxx", 
+                        "Port": "",
+                        "User": "",
+                        "Name": "",
+                        
+                        "Sites": [],
+                        "Queries": [
+                        {
+                                "Type": "new_movie_count",
+                                "Query": ""
+                        },
+                        {
+                                "Type": "site_movie_id",
+                                "Query": ""
+                        }
+                        ]
+                }
+        ]
+}
+
+
